@@ -1,0 +1,55 @@
+body {
+    font-family: verdana;
+    background-color: azure;
+}
+
+#fish-container{
+   text-align: center;
+   margin-top: 5rem;
+   
+}
+.logo{
+    margin-top: 5rem;
+    width: 100px;
+
+}
+
+header, footer {
+    position: absolute;
+    background-color: rgb(0, 255, 204);
+    width: 99%;
+    color: rgb(56, 13, 96);
+    font-size: xxx-large;
+    
+}
+header{
+    height: 10vh;
+    
+}
+footer h2 {
+    position: absolute;
+    left: 60%;
+    
+}
+input {
+    font-size: 1rem;
+}
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fil, minmax(150, auto));
+    gap: .25rem;
+    margin-top: 2rem;
+}
+.card {
+    border: 1px solid orange;
+    background-color: rgb(104, 55, 55);
+    padding: .5rem;
+}
+.card > .header {
+    margin-bottom: .25rem;
+}
+#search{
+    color: yellow;
+    font-size: .8rem;
+
+}
